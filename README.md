@@ -1,40 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Next.js Intermediate Assignment
 
-## Getting Started
+## Objective  
+This project demonstrates my ability to work with Next.js features such as server-side rendering (SSR), static site generation (SSG), API routes, and dynamic routing.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features  
+1. **Home Page**  
+   - A landing page with a welcome message and navigation menu.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Products Page**  
+   - Displays a list of products fetched from a custom API.  
+   - Implemented using Server-Side Rendering (SSR).  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. **Product Details Page**  
+   - Shows detailed information about a specific product using dynamic routing.  
+   - Implemented using Static Site Generation (SSG).  
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. **Custom API Route**  
+   - Serves mock product data for the application.  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+5. **Styling**  
+   - Styled with CSS Modules 
+   - Responsive and user-friendly design.  
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+6. **Bonus Features** (Optional):  
+   - Search functionality to filter products on the Products Page.  
+     
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+### Steps to Run Locally  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:  
+   ```bash
+   https://github.com/Shibudubey7/nextjs-assignment.git
+   cd nextjs-assignment
 
-## Deploy on Vercel
+2. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+     npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+3. Start the development server:
+
+   npm run dev
+4. Open the application in your browser:
+
+    Navigate to http://localhost:3000
+
+ **  Important Note**
+Do not use npm run build or yarn build for production builds because the project relies on localhost API endpoints, which will not function during the build process. The application is designed for local development only.
