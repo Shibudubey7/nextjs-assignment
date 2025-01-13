@@ -50,4 +50,5 @@ This project demonstrates my ability to work with Next.js features such as serve
     Navigate to http://localhost:3000
 
  **  Important Note**
+ Please use this url http://localhost:3000(your localhost port ) in place of .env variable 
 Do not use npm run build or yarn build for production builds because the project relies on localhost API endpoints, which will not function during the build process. The application is designed for local development only.
